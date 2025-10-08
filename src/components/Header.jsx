@@ -1,12 +1,8 @@
-import React from 'react';
-
+import './Header.css';
 export default function Header() {
   return (
-    <header>
-      <div>
-        <img src="logo.png" alt="Logo" />
-      </div>
-      <h1>Cardápio Maria Mônica Vale</h1>
-    </header>
+    <div className='header'>
+      <h1>Bem-vindo ao Sistema</h1>
+    </div>
   );
 }
